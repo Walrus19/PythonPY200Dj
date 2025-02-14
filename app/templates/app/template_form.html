@@ -42,7 +42,6 @@
                         <div class="form-input">
                             <textarea id="my_textarea" name="my_textarea" rows="10" placeholder="Начни писать здесь" required></textarea>
                         </div>
-
                         <!-- Добавьте своих полей --------------------------------------------------------------------->
                         <!-- Сформируйте и заполните нужные строки ввода (оберните их <div class="form-input"> как показано выше. Это нужно чтобы были одинаковые стили)-->
 						<div class="form-input">
@@ -56,11 +55,11 @@
 						<label>Введите целое значение:</label><input type="int">
                         <!---- Добавьте еще поле для переключателя checkbox (придумайте текст для label)---->
                         <!--------------------------------------------------------------------------------------------->
-						<p></p><label>Кто Вам ближе?:</label></p>
+						<p><label>Кто Вам ближе?:</label></p>
 
-							<label>Кошка<input id="cat" type="checkbox"></label>
-							<label>Собака<input id="dog" type="checkbox"></label>
-							<label>Питон<input id="pit" type="checkbox"></label>
+							<label>Кошка<input name="animal" id="cat" type="checkbox"></label>
+							<label>Собака<input name="animal" id="dog" type="checkbox"></label>
+							<label>Питон<input name="animal" id="pit" type="checkbox" checked></label>
 
                         <!-- В форме всегда присутствует кнопка чтобы что-то отправить. Кнопку не изменять! -->
 						<div class="mb-3"> 
